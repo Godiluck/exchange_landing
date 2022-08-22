@@ -1,15 +1,15 @@
 <template>
   <div class="wrapper">
     <div class="module">
-      <h2>Моментальный обмен 24/7</h2>
+      <h2>Обменный пункт Exchangeflash.<br/> Быстро. Выгодно.</h2>
       <ul>
         <li>Переводите ровно ту сумму, которую вы указали в заявке</li>
         <li>Время на оплату заявки - 35 мин</li>
       </ul>
       <h2>Остерегайтесь мошенников! Сохраните нашу ссылку:</h2>
       <ul>
-        <li><a href="http://momentwpfug2jsfakwj74wp4zok5p2ub2secsw5kn4arj2nl5noxw5ad.onion/">Зеркало в Tor'e</a></li>
-        <li><a href="https://moment-obmen247.io/">https://moment-obmen247.io</a></li>
+        <li><a href="https://t.me/BestExchange_support">ТГ - https://t.me/BestExchange_support</a></li>
+        <li><a href="https://t.me/BTC_BestExchange_bot">Бот в ТГ - https://t.me/BTC_BestExchange_bot</a></li>
       </ul>
     </div>
     <div class="logo">

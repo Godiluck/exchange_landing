@@ -1,7 +1,6 @@
 <template>
   <div class="main_wrapper">
     <PageHeader/>
-    <AboutUs/>
     <PageTerms/>
     <div class="router">
       <div class="exchange" v-if="modal === false">
@@ -27,7 +26,6 @@
 
 <script>
 import PageHeader from './components/PageHeader'
-import AboutUs from "@/components/AboutUs";
 import PageTerms from "@/components/PageTerms";
 import ExchangeModule from "@/components/ExchangeModule";
 import PageFooter from "@/components/PageFooter";
@@ -49,7 +47,6 @@ export default {
     PageFooter,
     ExchangeModule,
     PageTerms,
-    AboutUs,
     PageHeader
   },
   methods: {

@@ -98,6 +98,9 @@ export default {
     }
   },
   methods: {
+    captcha() {
+      console.log(true)
+    },
     defaultBorder(elem) {
       document.getElementById(elem).style.borderColor = 'white'
     },
@@ -316,7 +319,7 @@ export default {
     },
   },
   created() {
-    this.getCurrencies()
+    // this.getCurrencies()
     this.leftWindow = this.card;
     this.rightWindow = this.BTC;
   },
@@ -471,7 +474,9 @@ input[type=number] {
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  flex-direction: column;
 }
 
 .confirm_btn {
@@ -482,7 +487,9 @@ input[type=number] {
   font-weight: 800;
   border: 1px solid white;
   border-radius: 54px;
+  margin-top: 30px;
   cursor: pointer;
+  width: 20%;
   transition: .3s;
 }
 
